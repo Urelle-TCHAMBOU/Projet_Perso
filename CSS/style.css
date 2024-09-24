@@ -1,0 +1,67 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .right{
+    text-align: right;
+  }
+  .left{
+    text-align: left;
+  }
+  .submit{
+    background-color: blue;
+    width: 100%;
+  }
+  .submit:active{
+    transform: translateY(20px);
+  }
+  body{
+    background-image:url("https://previews.123rf.com/images/mashe/mashe1011/mashe101100214/8266342-flocon-de-neige-fond-belle-r%C3%A9sum%C3%A9-historique-des-feux-de-vacances.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+  footer {
+    position: fixed; /* Fixe le footer en bas de la fenêtre */
+    bottom: 0; /* Positionne à 0 pixels du bas */
+    width: 100%; /* Prend toute la largeur de la page */
+    background-color: #f1f1f1; /* Couleur de fond pour visibilité */
+    padding: 20px; /* Espacement interne */
+    text-align: center; /* Centrer le texte */
+    height: 250px;
+}
+.login-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.social-icons {
+  margin-top: 10px; /* Espacement au-dessus des icônes */
+}
+
+.social-icons a {
+  margin: 0 10px; /* Espacement horizontal entre les icônes */
+}
+
+.social-icons img {
+  width: 30px; /* Largeur des icônes */
+  height: auto; /* Hauteur automatique pour garder les proportions */
+  transition: transform 0.2s; /* Ajoute une transition douce */
+}
+
+.social-icons img:hover {
+  transform: scale(1.1); /* Effet de zoom au survol */
+}
+
+
+
